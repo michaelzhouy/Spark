@@ -2,7 +2,7 @@
 
 stage是根据shuffle来划分的, shuffle算子之前的代码被划分为一个stage, 之后的被划分为一个stage
 
-shuffle算子包括: groupByKey, join
+shuffle算子包括: groupByKey, countByKey, reduceByKey, join
 
 shuffle算子宽窄依赖
 
